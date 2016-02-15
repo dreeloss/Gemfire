@@ -52,6 +52,16 @@
     </plugins>
   </build>
 
+ <repositories>
+
+     <repository>
+      <id>gemfire 2</id>
+      <name>repo gemfire</name>
+      <url>http://localhost:8000/nexus/content/repositories/Gemfire</url>
+    </repository>
+
+</repositories>
+
 
 
  <dependencies>  

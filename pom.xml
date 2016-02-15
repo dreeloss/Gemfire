@@ -7,19 +7,8 @@
   <description>full gemfire server with maven and spring</description>
   
    <distributionManagement>
-<!--
- 
-    
-    
-     <repository>
-         <id>nexus</id>   
-         <name>nexus repository</name>
 
-         <url>http://localhost:8000/nexus/service/local/staging/deploy/maven2</url>
 
-    </repository>   -->
-  
-  
   <snapshotRepository>
        <id>nexus</id>   
        <name>nexus</name>
@@ -63,15 +52,6 @@
     </plugins>
   </build>
 
-<repositories>
-
-     <repository>
-      <id>gemfire 2</id>
-      <name>repo gemfire</name>
-      <url>http://localhost:8000/nexus/content/repositories/Gemfire</url>
-    </repository>
-
-</repositories>
 
 
  <dependencies>  

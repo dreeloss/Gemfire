@@ -5,8 +5,10 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>gemfireserver</name>
   <description>full gemfire server with maven and spring</description>
-
-  <distributionManagement>
+  
+   <distributionManagement>
+<!--
+ 
     
     
      <repository>
@@ -15,7 +17,7 @@
 
          <url>http://localhost:8000/nexus/service/local/staging/deploy/maven2</url>
 
-    </repository>  
+    </repository>   -->
   
   
   <snapshotRepository>
